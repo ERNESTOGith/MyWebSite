@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MyWebSite"
+  favicon: "images/photo.jpg"
+  margin-header: |
+     ![My Chapter](/images/R_logo.png)
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts/projects
+        text: Projects
+      - href: video
+        text: Videos
+      - href: posts/paper1.qmd
+        text: My Papers
+      - href: about.qmd
+        text: About Me
+    right: 
+      - icon: github
+        href: https://github.com/rladiesrome
+        aria-label: Github
+  page-footer:
+   background: "#4a5054"
+   left: |
+         Copyright &copy; 2024 [R-Ladies Rome & NYC](https://federicagazzelloni.com/)
+   center:
+          - href: https://github.com/rladiesrome
+            icon: github
+            aria-label: Github
+          - href: https://twitter.com/rladiesrome
+            icon: twitter
+            aria-label: Twitter
+   right: | 
+        [Made with💗 and Quarto](https://quarto.org/)
+        
+format:
+  html:
+    theme:
+       light: slate
+       dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+

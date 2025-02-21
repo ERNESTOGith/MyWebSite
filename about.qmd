@@ -1,0 +1,11 @@
+---
+title: "About Me"
+description: "This is where I tell all about myself."
+image: "images/photo.jpg"
+about: 
+  template: trestles
+---
+
+Welcome to m website, your ultimate destination for all things data science. I am Ernest NTEDE, a dedicated statistician with a passion for analysing economic data and other types of data to uncover meaningful insights and drive impactful decisions. With years of experience in the field, I specialise in leveraging advanced statistical methods and data science techniques to address complex healthcare challenges. My goal is to provide you with high-quality content, expert insights, and practical solutions to help you navigate the everevolving world of health data science.
+
+Whether your are a beginner or a professional, you will find valuable resources, tutorials, and a supportive community here to help you master the art of data science. Explore, learn, and elevate your skills with us!
